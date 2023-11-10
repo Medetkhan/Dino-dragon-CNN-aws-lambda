@@ -1,0 +1,1 @@
+261034039635.dkr.ecr.us-east-1.amazonaws.com/dino_dragon_medet_model
