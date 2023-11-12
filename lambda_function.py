@@ -4,7 +4,7 @@ import numpy as np
 from io import BytesIO
 from urllib import request
 
-interpreter = tflite.Interpreter(model_path='./dino-vs-dragon.tflite')
+interpreter = tflite.Interpreter(model_path='./dino-vs-dragon-v2.tflite') #./dino-vs-dragon.tflite
 interpreter.allocate_tensors()
 
 input_index = interpreter.get_input_details()[0]['index']

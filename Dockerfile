@@ -1,7 +1,7 @@
 FROM karatayevm/dino-dragon-lambda:latest
 
 COPY tflite_runtime-2.7.0-cp39-cp39-manylinux2014_x86_64.whl .
-COPY dino-vs-dragon.tflite .
+#COPY dino-vs-dragon.tflite .
 
 RUN pip install tflite_runtime-2.7.0-cp39-cp39-manylinux2014_x86_64.whl
 RUN pip install pillow
